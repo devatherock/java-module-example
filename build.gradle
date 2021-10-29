@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'io.github.devatherock.example.MainBot'
+  }
+}
